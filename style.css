@@ -1,0 +1,260 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 90px;
+}
+
+.header{
+    background-image: url(Xypo_All_Images/images/background.png);
+    background-size: cover;
+    background-position: center;
+    width:95vw;
+    height:100vh;
+}
+.logo img{
+    margin:30px 30px;
+}
+
+.text{
+   width:30%;
+   margin-top: 80px;
+
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.text p{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.square{
+    width:10px;
+    height:10px;
+    background-color: #f67c92;
+    display:inline-block;
+}
+.primary{
+    border: 2px solid #f67c92 ;
+    background-color: white;
+    padding:10px 15px;
+}
+.line{
+    margin-top: 20px;
+}
+
+ .line1{
+    width:30px;
+    height:5px;
+    background-color: #f67c92;
+    display:inline-block;
+ }
+ .line2{
+    width:50px;
+    height:2px;
+    background-color: #f67c92;
+    display:inline-block;
+ }
+
+
+ ul{
+    list-style: none;
+ }
+
+  #sidebar{
+    width:240px;
+    height:100%;
+    background-color: #f67c92;
+    top:0;
+    right:-250px;
+    z-index: 2;
+    position:fixed;
+  }
+  #sidebar ul li{
+    margin: 60px 40px;
+  }
+  #sidebar ul li a{
+    color:white;
+    text-decoration: none;
+  }
+
+
+  #menu{
+    top:65px;
+    right:35px;
+    position:fixed;
+    z-index: 2;
+  }
+  #menu img{
+    width:60px;
+  }
+  
+  .sub-header{
+    padding:100px 0px ;
+    display:flex;
+    gap:10%;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  .left{
+     flex-basis: 50%;
+  }
+  .left img{
+    width:100%;
+  }
+
+  .rigth{
+    flex-basis: 40%;
+  }
+  
+  .about-text{
+    text-align: right;
+    max-width:450px;
+  }
+  .about-text h1{
+    margin-bottom: 20px;
+  }
+  .about text p{
+    line-height: 1.5rem;
+  }
+  
+  .about-text h2{
+    font-size: 28px;
+    font-family: cursive;
+  }
+  .about-text h3{
+    color:#555;
+  }
+
+
+
+  .feature-section{
+    padding:20px 30px;
+  }
+
+  .feature-area{
+    display:flex;
+    gap:3%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .feature-card{
+    width:160px;
+  }
+
+  .feature-card img{
+    width:110px;
+  }
+  .feature-card h2{
+    margin-block:20px ;
+  }
+
+   .button{
+    width:150px;
+    margin: 70px auto;
+    display:flex;
+    justify-content: center;
+   }
+   
+   .courses{
+    display:flex;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    justify-content: space-evenly;
+   }
+    
+   .left-txt{
+    flex-basis: 35%;
+
+   }
+   .right{
+    flex-basis: 50%;
+   }
+   .right img{
+    width:100%;
+   }
+   .left h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+   }
+    .left-txt p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+   } 
+
+   .contact{
+    display:flex;
+    align-items: center;
+    width:99vw;
+    height:100vh;
+    gap:5%;
+    justify-content: space-evenly;
+   }
+
+   .right-img{
+        flex-basis: 45%;
+   }
+   .right-img  img{
+    width:100%;
+   }
+
+   .left-form{
+    flex-basis: 25%;
+   }
+   .left-form h2{
+    margin-bottom: 25px;
+   }
+   .left-form input{
+    width:100%;
+    margin-bottom: 2px;
+   }
+   .tag{
+    color:black;
+    text-decoration: none;
+    
+   }   
+   hr{
+    border-top: 2px solid #f67c92;
+   
+   }
+
+   .footer{
+    display:flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+   }
+   
+   .foot{
+    margin: 80px 40px;
+  
+   }
+   .foot h3{
+    color: #f67c92;
+   }
+
+   .icons{
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    top:50%;
+    left:0%;
+transform: translateY(-50%);
+    z-index: 1;
+   }
+
+   .icons img{
+    margin-bottom: 15px;
+    width:25px;
+    margin-left: 10px;
+    
+   }
